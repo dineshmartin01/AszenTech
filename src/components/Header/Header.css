@@ -1,0 +1,193 @@
+.head{
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.head1{
+    height: 60px;
+    width: 250px;
+    /* background-color: blue; */
+}
+.head2 img{
+    height: 60px;
+    width: 150px;
+}
+
+.head3{
+    height: 60px;
+    width: 250px;
+    /* background-color: blue; */
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.head3 b{
+    color: rgb(235, 135, 14);
+    
+}
+.head3 img{
+    height: 25px;
+    /* margin-top: 12px;     */
+
+}
+.log1 span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.call{
+    display: flex;
+    margin-left: 20px;
+}
+
+.call1 {
+    height: 20px;
+    width: 35px;
+}
+.call2{
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.header1 {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header1 ul{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -0px;
+
+}
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    list-style-type: none;
+    background-color: #e3e3e0 ;
+    border-right: 1px solid black;
+    /* position: absolute; */
+    
+}
+ .header1  li{
+    height: 50px;
+    width: 150px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+}
+.header1 ul li:hover{
+    background-color: rgb(153, 155, 156);
+    
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+.header1 ul li a :hover{
+    color: antiquewhite;
+
+}
+.humburger{
+    display: none;
+}
+.humburger button{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.header2{
+    display: none;
+}
+
+@media only screen and (max-width: 480px)  {
+    .head1{
+        display: none;
+        
+    }
+    .head3 .log{
+        display: none;
+    }
+    .head3 .log1{
+        display: none;
+
+    }
+    .head3 span{
+        display:
+         none;
+    }
+    .head3{
+        margin-left: 55%;
+    }
+    .header1{
+        display: none        ;
+    }
+    .humburger{
+        display: contents;
+        
+    }
+    .humburger img {
+        height: 50px;
+    }
+    .head2 img{
+        height: 50px;
+        margin-top: 10px;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        display: contents;
+        display: flex;
+        align-items: center ;
+        justify-content: center;
+        flex-direction: row;
+        height: 8vh;
+        width: 100%;
+
+    }
+
+    .header2-1{
+        height: 5vh;
+        width: 90%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .header2-1-2 img{
+        height: 20px;
+        margin-left: -20px;
+        /* margin-top: 15px; */
+    }
+    .header2-1-2 span{
+        display: flex;
+        align-items: center;
+      color: rgb(235, 135, 14);
+        
+    }
+   
+    /* .header2-1-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+
+}
