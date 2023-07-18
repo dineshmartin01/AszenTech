@@ -9,6 +9,7 @@
     height: 60px;
     width: 250px;
     /* background-color: blue; */
+    cursor: pointer;
 }
 .head2 img{
     height: 60px;
@@ -24,6 +25,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
 }
 .head3 b{
     color: rgb(235, 135, 14);
@@ -49,6 +51,7 @@
 .call1 {
     height: 20px;
     width: 35px;
+    cursor: pointer;
 }
 .call2{
     margin-left: 6px;
@@ -181,6 +184,19 @@
         align-items: center;
       color: rgb(235, 135, 14);
         
+    }
+    .nav-links{
+        display: none;
+
+    }
+    .nav-links-mobile{
+                position: absolute;
+                list-style: none;display: block;
+                left: 0;
+                top: 10%;
+                transition: all 0.5s ease-in-out;
+                width: 100%;
+                background-color: #fff;
     }
    
     /* .header2-1-2{

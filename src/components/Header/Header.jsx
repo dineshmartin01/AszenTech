@@ -7,7 +7,7 @@ import {FaBars} from "react-icons/fa"
 import{ImCross} from 'react-icons/im'
 
 function Header(){
-        const [Mobile , setMobile]= useState(false)
+        const [Mobile , setMobile]= useState(true)
     return(
         <div className="main">
             <div className="head">
@@ -30,17 +30,17 @@ function Header(){
                     <div className="log1">
                         <span><img src={login}/><b>Login</b></span>
                     </div>
-                    <button className="humburger">
+                    <button className="humburger" onClick={()=> setMobile(!Mobile)}>
                     
-                        {/* { Mobile? <Imcross/>} */}
                     
-                    <FaBars/>
+                    {Mobile ? <ImCross/> :<FaBars/>}
+                    {/* <FaBars/> */}
                 </button>
                 </div>
             </div>
             <div className="header">
             <div className="header1" >
-             <ul>
+             <ul className= { Mobile ? "nav-links-mobile" : "nav-links"}onClick={()=>setMobile(false)}>
                 <li><Link to="/"> Data</Link></li>
                 <li><Link to={"/Ecommerce"}>Ecommerce</Link></li>
                 <li><Link to={"/Publishing"}>E-publishing</Link></li>

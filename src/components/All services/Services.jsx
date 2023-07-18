@@ -13,7 +13,8 @@ function Allservices(){
                             <div className="flip-card" tabIndex="0">
                                 <div className="flip-card-inner">
                             <div className="flip-card-front">
-                                <img src="https://cdn-icons-png.flaticon.com/128/6862/6862316.png"/>
+                                <img src="https://cdn-icons-png.flaticon.com/128/9542/9542653.png"/>
+                            
                                 <h1>Data</h1>
                                 <span>Data Analytics</span>
                                 </div>
@@ -21,7 +22,7 @@ function Allservices(){
                                     <div className="inner">
                                         <div className="inner1">
                                             <h1>Data</h1>
-                                            <img src="https://cdn-icons-png.flaticon.com/128/6862/6862316.png"/>
+                                            <img src="https://cdn-icons-png.flaticon.com/128/9542/9542653.png"/>
                                         </div>
                                         <div className="inner2">
                                                 <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
@@ -36,15 +37,15 @@ function Allservices(){
                          <div className="flip-card" tabIndex="0">
                          <div className="flip-card-inner">
                             <div className="flip-card-front">
-                            <img src="https://cdn-icons-png.flaticon.com/128/954/954347.png"/>
+                            <img src="https://cdn-icons-png.flaticon.com/128/4224/4224874.png"/>
                                 <h1>E-Commerce</h1>
                                 <span>Development</span>
                             </div>
                             <div className="flip-card-back">
                             <div className="inner">
                                         <div className="inner1">
-                                            <h1>Data</h1>
-                                            <img src="https://cdn-icons-png.flaticon.com/128/6862/6862316.png"/>
+                                            <h1>E-Commerce</h1>
+                                            <img src="https://cdn-icons-png.flaticon.com/128/4224/4224874.png"/>
                                         </div>
                                         <div className="inner2">
                                                 <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
@@ -63,15 +64,15 @@ function Allservices(){
                             <div className="flip-card" tabIndex="0">
                          <div className="flip-card-inner">
                             <div className="flip-card-front">
-                            <img src="https://cdn-icons-png.flaticon.com/128/954/954347.png"/>
+                            <img src="https://cdn-icons-png.flaticon.com/128/1245/1245132.png"/>
                                 <h1>E-Publishing</h1>
                                 <span>Development</span>
                             </div>
                             <div className="flip-card-back">
                             <div className="inner">
                                         <div className="inner1">
-                                            <h1>Data</h1>
-                                            <img src="https://cdn-icons-png.flaticon.com/128/6862/6862316.png"/>
+                                            <h1>E-Publishing</h1>
+                                            <img src="https://cdn-icons-png.flaticon.com/128/1245/1245132.png"/>
                                         </div>
                                         <div className="inner2">
                                                 <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
@@ -93,15 +94,15 @@ function Allservices(){
                             <div className="flip-card-inner">
 
                             <div className="flip-card-front">
-                            <img src="https://cdn-icons-png.flaticon.com/128/7707/7707531.png"/>
+                            <img src="https://cdn-icons-png.flaticon.com/128/2335/2335265.png"/>
                                 <h1>App & Web</h1>
                                 <span>Data Analytics</span>
                             </div>
                             <div className="flip-card-back">
                             <div className="inner">
                                         <div className="inner1">
-                                            <h1>Data</h1>
-                                            <img src="https://cdn-icons-png.flaticon.com/128/6862/6862316.png"/>
+                                            <h1>App & Web</h1>
+                                            <img src="https://cdn-icons-png.flaticon.com/128/2335/2335265.png"/>
                                         </div>
                                         <div className="inner2">
                                                 <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
@@ -120,15 +121,15 @@ function Allservices(){
                             <div className="flip-card-inner">
 
                             <div className="flip-card-front">
-                            <img src="https://cdn-icons-png.flaticon.com/128/3547/3547734.png"/>
+                            <img src="https://cdn-icons-png.flaticon.com/128/2383/2383564.png"/>
                                 <h1>Photo   </h1>
                                 <span>Editing</span>
                             </div>
                             <div className="flip-card-back">
                             <div className="inner">
                                         <div className="inner1">
-                                            <h1>Data</h1>
-                                            <img src="https://cdn-icons-png.flaticon.com/128/6862/6862316.png"/>
+                                            <h1>Photo Editing</h1>
+                                            <img src="https://cdn-icons-png.flaticon.com/128/2383/2383564.png"/>
                                         </div>
                                         <div className="inner2">
                                                 <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
@@ -145,15 +146,15 @@ function Allservices(){
                             <div className="flip-card-inner">
 
                             <div className="flip-card-front">
-                            <img src="https://cdn-icons-png.flaticon.com/128/3141/3141296.png"/>
+                            <img src="https://cdn-icons-png.flaticon.com/128/3141/3141158.png"/>
                                 <h1>Digital </h1>
                                 <span>Marketing</span>
                             </div>
                             <div className="flip-card-back">
                             <div className="inner">
                                         <div className="inner1">
-                                            <h1>Data</h1>
-                                            <img src="https://cdn-icons-png.flaticon.com/128/6862/6862316.png"/>
+                                            <h1>Digital Marketing </h1>
+                                            <img src="https://cdn-icons-png.flaticon.com/128/3141/3141158.png"/>
                                         </div>
                                         <div className="inner2">
                                                 <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
