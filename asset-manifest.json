@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AszenTech/static/css/main.fe17f1af.css",
+    "main.js": "/AszenTech/static/js/main.5bb7c6fa.js",
+    "static/js/787.2b190226.chunk.js": "/AszenTech/static/js/787.2b190226.chunk.js",
+    "static/media/global.jpg": "/AszenTech/static/media/global.ea7198640092df459f4a.jpg",
+    "static/media/login.png": "/AszenTech/static/media/login.333f26b32e183ba8b03b.png",
+    "static/media/logo.svg": "/AszenTech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/AszenTech/index.html",
+    "main.fe17f1af.css.map": "/AszenTech/static/css/main.fe17f1af.css.map",
+    "main.5bb7c6fa.js.map": "/AszenTech/static/js/main.5bb7c6fa.js.map",
+    "787.2b190226.chunk.js.map": "/AszenTech/static/js/787.2b190226.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe17f1af.css",
+    "static/js/main.5bb7c6fa.js"
+  ]
+}
