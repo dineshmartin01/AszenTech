@@ -7,7 +7,7 @@ function Tesimonial(){
                 <section id="testimonials">
   <h3 class="title">Testimonial</h3>
   <div class="testimonial-container">
-    <div class="testimonail">
+    <div className="testimonail">
       <div class="text">
         <div class="quote">&#8220;</div>
         <p class="review">
@@ -80,7 +80,7 @@ function Tesimonial(){
         </div>
         <div class="information">
           <span class="name">Ram Kishan</span>
-          <div class="social">
+          <div className="social">
             <a href="https://www.facebook.com">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
@@ -101,7 +101,12 @@ function Tesimonial(){
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+     
+
         </div>
-    )
+
+        
+)
 }
 export default Tesimonial;

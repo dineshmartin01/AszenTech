@@ -1,0 +1,142 @@
+
+
+.contactus{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-image: url("https://img.freepik.com/free-photo/online-school-equipment-home_23-2149041150.jpg?w=900&t=st=1689946579~exp=1689947179~hmac=22e5cb444604e728ae2dd06fe2a4cb549ea9b8b8acd0c95df13e034feccc280c");
+    background-repeat: no-repeat;
+    background-size: 200vh;
+}
+
+.contact-inner{
+    height: 100vh;
+    width: 90%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+    
+
+
+}
+.contact-inner1{
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    justify-content: space-evenly;
+}
+.contact-inner2{
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(193, 163, 163); */
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.help2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    width: 80%;
+    line-height: 20px;
+    /* background-color: aliceblue; */
+    
+
+}
+.help2 img{
+    height: 10vh;
+}
+.touch{
+    color: blueviolet;
+}
+.form{
+    height: 85vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:   #fff;
+    margin-right: 20%;
+}
+.request-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 100%;
+    /* background-color: rgb(10, 118, 213); */
+    
+    
+}
+.request-1 input{
+    height: 5vh;
+    width: 70%;
+    border-radius: 5px;
+    /* border: none; */
+    opacity: 0.5;
+    border-color: grey ;
+    
+}
+.request-1 button{
+    height: 5vh;
+    width: 30%;
+}
+.request{
+    height: 60vh;
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.request h3{
+    color: blueviolet;
+}
+.request-1 p{
+    color: blue;
+}
+.send{
+    height: 45vh;
+    width: 100%;
+    margin-top: 10%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.send-2 input{
+        height: 50px;
+        width: 50%;
+}
+.send-2 img {
+    height: 55px;
+    width: 50px;
+}
+.send-2{
+    display: flex;
+    justify-content: center;
+
+    
+}

@@ -1,0 +1,311 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto&display=swap');
+.ecommerce__head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.ecommerce__tagline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.ecommerce__Services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.ecommerce__workflow{
+    height: 130vh;
+    width: 76%;
+    margin-left: auto;
+    
+}
+.ecommerce__workflow__content{
+    display: flex;
+    flex-direction: column;
+    font-family: open sans;
+}
+.ecommerce__workflow__content p{
+    font-size: 20px;
+}
+.ecommerce__workflow__content h1{
+    color: rgb(246, 100, 33);
+}
+.ecommerce__workflow__content img{
+    height: auto;
+    width: 70%;
+    margin-top: 10px;
+}
+.ecommerce__workflow__points{
+    display: flex;
+    flex-direction: column; 
+    font-size: 18px;
+       
+}
+.ecommerce__workflow__points li{
+    list-style-type: none;
+    margin-left: 4%;
+    list-style-type: disc;
+}
+.ecommerce__client{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 198, 170);
+    
+}
+.ecommerce__client__stories{
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ecommerce__client__box{
+    height: 60vh;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    /* justify-content: space-between; */
+    background-color: rgb(205, 245, 245);
+}
+.ecommerce__client__box img{
+    width: 100%;
+    height: 25vh;
+}
+.ecommerce__client__box p{
+    text-align: center;
+}
+.ecommerce__client__box h3{
+    color: rgb(246, 100, 33);
+}
+
+.ecommerce__setus{
+    height: 100vh;
+    width: 72%;
+    margin-left: auto;
+    
+}
+.ecommerce__setus__content{
+    display: flex;
+    flex-direction: column;
+    font-family: open sans;
+}
+.ecommerce__setus__content p{
+    font-size: 20px;
+}
+.ecommerce__setus__content h1{
+    color: rgb(246, 100, 33);
+}
+.ecommerce__setus__content img{
+    height: 60vh;
+    width: 70%;
+    margin-top: 10px;
+}
+.ecommerce__setus__points{
+    display: flex;
+    flex-direction: column; 
+    font-size: 18px;
+       
+}
+.ecommerce__setus__points li{
+    list-style-type: none;
+    margin-left: 4%;
+    list-style-type: disc;
+}
+.ecommerce__setus__content img{
+    height: auto;
+}
+
+.ecommerce__outsource{
+    height: 102vh;
+    width: 72%;
+    margin-left: auto;
+    
+}
+.ecommerce__outsource__content{
+    display: flex;
+    flex-direction: column;
+    font-family: open sans;
+}
+.ecommerce__outsource__content p{
+    font-size: 20px;
+}
+.ecommerce__outsource__content h1{
+    color: rgb(246, 100, 33);
+}
+.ecommerce__outsource__content img{
+    height: 60vh;
+    width: 70%;
+    margin-top: 10px;
+}
+.ecommerce__outsource__points{
+    display: flex;
+    flex-direction: column; 
+    font-size: 18px;
+       
+}
+.ecommerce__outsource__points li{
+    list-style-type: none;
+    margin-left: 4%;
+    list-style-type: disc;
+}
+.ecommerce__benifits{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+.ecommerce__benifits img{
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 361px){
+    .ecommerce__productmanagement{
+        height: 135vh;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .ecommerce__tagline{
+        font-size: 5px;
+    }
+    .ecommerce__Services p{
+        font-size: 14px;
+    }
+    .ecommerce__productdata {
+        margin-top: -21%;
+    }
+   
+}
+@media only screen and (max-width: 1025px){
+    .ecommerce__tagline{
+        font-size: 8px;
+    }
+    .ecommerce__Services p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 415px){
+    .ecommerce__tagline{
+        font-size: 6px;
+    }
+    .ecommerce__Services p{
+        font-size: 12px;
+    }
+    .ecommerce__productdata2 {
+        display: none ;
+    }
+    .ecommerce__tagline{
+        font-size: 5px;
+    }
+    .ecommerce__Services p{
+        font-size: 10px;
+    }
+    .ecommerce__productdata2 {
+        display: none ;
+    }
+    .ecommerce__productdata1{
+        width: 100%;
+    }
+    .ecommerce__productdata1 h1{
+        font-size: 17px;
+    }
+    .ecommerce__productdata__points{
+        height: 36vh;
+        word-spacing: 2px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+    .ecommerce__productdata{
+        margin-top: -44%;
+    }
+    .ecommerce__productmanagement1{
+        display: none;
+    }
+    .ecommerce__productmanagement2{
+        width: 100%;
+    }
+    .ecommerce__productmanagement{
+        height: 136vh;
+    }
+}
+@media only screen and (max-width: 281px){
+    .ecommerce__tagline{
+        font-size: 5px;
+    }
+    .ecommerce__Services p{
+        font-size: 10px;
+    }
+    .ecommerce__productdata2 {
+        display: none ;
+    }
+    .ecommerce__productdata1{
+        width: 100%;
+    }
+    .ecommerce__productdata1 h1{
+        font-size: 17px;
+    }
+    .ecommerce__productdata__points{
+        height: 36vh;
+        word-spacing: 2px;
+        line-height: 14px;
+        font-size: 10px;
+    }
+    .ecommerce__productdata1 p{
+    font-size: 9px;
+   
+    font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .ecommerce__productdata1 p{
+        font-size: 14px;
+       
+        font-weight: bold;
+        }
+}
+@media only screen and (max-width: 361px){
+    .ecommerce__productdata__points{
+        height: 36vh;
+        word-spacing: 2px;
+        line-height: 23px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 394px){
+    .ecommerce__productdata__points{
+        height: 36vh;
+        word-spacing: 2px;
+        line-height: 22px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,13 @@
+.socialmediaicon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    
+}
+.socialmediaicon li {
+    height: 30px;
+    width: 50px;
+    text-decoration: none;
+    background-color: aqua;
+    
+}
