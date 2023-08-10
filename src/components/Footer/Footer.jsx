@@ -37,14 +37,14 @@ function Footer(){
                         </div>
                         <div className="foot3">
                             <h3>Disclaimer</h3>
-                            <p>SunTec does not utilize any 3rd parties or freelancers to outsource any data entry/processing type work. If you are contacted by any 3rd party claiming to represent SunTec for these type of services - this is a fraud. Please disregard.
+                            <p>aszen does not utilize any 3rd parties or freelancers to outsource any data entry/processing type work. If you are contacted by any 3rd party claiming to represent aszen for these type of services - this is a fraud. Please disregard.
                              Better still, please forward us the details which we'll forward to our legal cell for appropriate action.</p>
                         </div>
                      </div>
                      <div className="foot1-2">
                             <div className="foot4">
                                 <p>The information on this web site is protected by copyright. Users of the web site are not authorized to redistribute, reproduce, republish, store in any medium, modify, 
-                                    or make public or commercial use of the information without the written authorization of SunTec Web Services Pvt. Ltd.</p>
+                                    or make public or commercial use of the information without the written authorization of aszen Web Services Pvt. Ltd.</p>
                             </div>
                             <div className="foot5">
                                     <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-64.png"></img>

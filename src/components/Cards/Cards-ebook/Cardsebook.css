@@ -1,0 +1,41 @@
+.cardsebook{
+    height: 35vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #eac2a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.cardsebook h1{
+    color: rgb(17, 17, 16);
+    font-family: open sans;
+}
+.cardsbook__1{
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.cardsebook__box{
+    height: 40px;
+    width: 20%;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #363635;
+    border-color: gray;
+    /* font-family: open sans; */
+}
+.cardsebook__box:hover{
+    background: linear-gradient(to top, rgb(255, 175, 28), #f9d9bf);
+    color: black;
+}

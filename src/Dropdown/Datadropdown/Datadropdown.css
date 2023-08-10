@@ -1,0 +1,55 @@
+.datadrop{
+    position: absolute;
+    height: 55vh;
+    width: 42%;
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: -7%;
+    justify-content: flex-start;
+    font-size: 13px;
+    /* font-weight: bold; */
+    background-color: rgb(238, 238, 245);
+}
+.datadrop1{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    height: 55vh;
+    width: 200px;
+    gap: 2px;
+    /* justify-content: center; */
+    margin-right: 20px;
+    margin-left: 10px;
+    
+    
+}
+.datadrop1 li{
+    width: 100%;
+}
+.datadrop2{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    width: 200px;
+    justify-content: flex-start; 
+    gap: 2px;   
+    
+}
+.datadrop2 li{
+    width: 100%;
+}
+.datadrop3{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-right: 1px solid black;
+    width: 200px;
+    margin-left: 10px;
+    
+    
+}
+.datadrop3 li{
+    width: 100%;
+}
+
+

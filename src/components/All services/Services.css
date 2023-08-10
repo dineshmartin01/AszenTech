@@ -34,6 +34,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         
         /* background-color: black;  */
 }
@@ -58,7 +59,7 @@
 
 .flip-card {
     /* background-color: transparent; */
-    width: 250px;
+    width:30%;
     height: 250px;
     margin-bottom: 25px;
     
@@ -139,20 +140,20 @@
     
   cursor: pointer;
   }
-  h3 {
+  /* h3 {
     font-size: 20px;
     font-family: Verdana, sans-serif;
     font-weight: bold;
     color: #fff;
-  }
+  } */
 
   .inner{
     height: 42vh;
-    width: 100%;    
+    width: 90%;    
   }
   .inner1{
     font-size: 12px;
-    padding-left: 5px;
+    padding-left: 15px;
   }
   .inner2{
     height: 25vh;

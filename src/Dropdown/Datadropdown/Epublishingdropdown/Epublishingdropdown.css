@@ -1,0 +1,54 @@
+.Epubdrop{
+    position: absolute;
+    height: 55vh;
+    width: 30%;
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: -8.5%;
+    justify-content: flex-start;
+    font-size: 13px;
+    /* font-weight: bold; */
+    background-color: rgb(238, 238, 245);
+}
+.Epubdrop1{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    height: 55vh;
+    width: 200px;
+    gap: 2px;
+   
+    margin-right: 20px;
+    margin-left: 10px;
+    
+    
+}
+.Epubdrop1 li{
+    width: 100%;
+}
+.Epubdrop2{
+    display: flex;
+    flex-direction: column;
+    /* border-right: 1px solid black; */
+    width: 200px;
+    justify-content: flex-start; 
+    gap: 2px;   
+    margin-top: 25px;
+    
+}
+.Epubdrop2 li{
+    width: 100%;
+}
+.Epubdrop3{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-right: 1px solid black;
+    width: 200px;
+    margin-left: 10px;
+    
+    
+}
+.Epubdrop3 li{
+    width: 100%;
+}

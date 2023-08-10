@@ -1,0 +1,41 @@
+.Cardsepub__main{
+    height: 48vh;
+    width: 20%;
+    display: flex;    
+    background-color: brown;
+    overflow: hidden;
+}
+.Cardsepub__front{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(12, 114, 203);
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.Cardsepub__front img{
+    width: auto;
+    height: 35vh;
+}
+.Cardsepub__front h4{
+    font-size: large;
+    font-family: open sans;
+}
+.Cardsepub__back{
+    height: 48vh;
+    width: 20%;
+    /* right: 630px; */
+    background-color: rgb(242, 228, 228);
+    position: absolute;
+    display: none;
+    text-align: start;
+    margin: auto;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.Cardsepub__main:hover .Cardsepub__back {
+   
+    display: block;
+}

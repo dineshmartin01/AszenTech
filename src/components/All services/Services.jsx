@@ -25,7 +25,7 @@ function Allservices(){
                                             <img src="https://cdn-icons-png.flaticon.com/128/9542/9542653.png"/>
                                         </div>
                                         <div className="inner2">
-                                                <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
+                                                <p>aszen helps you manage your organizational data through its entire lifecycle. From data capturing, 
                                                     extraction, inputting & processing to data quality management and analysis.</p>
                                         </div>
                                     </div>
@@ -48,7 +48,7 @@ function Allservices(){
                                             <img src="https://cdn-icons-png.flaticon.com/128/4224/4224874.png"/>
                                         </div>
                                         <div className="inner2">
-                                                <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
+                                                <p>aszen helps you manage your organizational data through its entire lifecycle. From data capturing, 
                                                     extraction, inputting & processing to data quality management and analysis.</p>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@ function Allservices(){
                                             <img src="https://cdn-icons-png.flaticon.com/128/1245/1245132.png"/>
                                         </div>
                                         <div className="inner2">
-                                                <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
+                                                <p>aszen helps you manage your organizational data through its entire lifecycle. From data capturing, 
                                                     extraction, inputting & processing to data quality management and analysis.</p>
                                         </div>
                                     </div>
@@ -105,7 +105,7 @@ function Allservices(){
                                             <img src="https://cdn-icons-png.flaticon.com/128/2335/2335265.png"/>
                                         </div>
                                         <div className="inner2">
-                                                <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
+                                                <p>aszen helps you manage your organizational data through its entire lifecycle. From data capturing, 
                                                     extraction, inputting & processing to data quality management and analysis.</p>
                                         </div>
                                     </div>
@@ -132,7 +132,7 @@ function Allservices(){
                                             <img src="https://cdn-icons-png.flaticon.com/128/2383/2383564.png"/>
                                         </div>
                                         <div className="inner2">
-                                                <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
+                                                <p>aszen helps you manage your organizational data through its entire lifecycle. From data capturing, 
                                                     extraction, inputting & processing to data quality management and analysis.</p>
                                         </div>
                                     </div>
@@ -157,7 +157,7 @@ function Allservices(){
                                             <img src="https://cdn-icons-png.flaticon.com/128/3141/3141158.png"/>
                                         </div>
                                         <div className="inner2">
-                                                <p>SunTec helps you manage your organizational data through its entire lifecycle. From data capturing, 
+                                                <p>aszen helps you manage your organizational data through its entire lifecycle. From data capturing, 
                                                     extraction, inputting & processing to data quality management and analysis.</p>
                                         </div>
                                     </div>

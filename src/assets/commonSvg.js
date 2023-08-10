@@ -8,5 +8,11 @@ export const mail = <svg width="40" height="40" viewBox="0 0 24 24" fill="none" 
 </defs>
 </svg>
 
+export const cross = <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="7.5" cy="7.5" r="4.5" fill="#0085FF"/>
+<circle cx="7.5" cy="7.5" r="7.2" stroke="#4FAAFF" stroke-width="0.6"/>
+</svg>
+
+
 
  

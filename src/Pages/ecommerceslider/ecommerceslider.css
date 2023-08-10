@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+
+.ecommerce__slider{
+    height: 75vh;
+    width: 80%;
+    background-color: rgb(220, 164, 120);
+    margin: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.ecommerce__slider1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ecommerce__slider2{
+    height: 60vh;
+    width: 90%;
+}
+/* .slick-slide div{
+    margin: 0 1rem;
+    margin-left: 10px;
+} */
+.slick-next{
+    right: -40px !important;
+}
+.slick-dots li.slick-active button:before{
+    color: lightblue !important;
+}
+.slick-dots li button:before{
+    color: #fff !important;
+    font-size: 1rem !important;
+    top: 2rem !important;
+}
+.ecommerce__box1{
+    height: 300px;
+    /* width: 300px; */
+    background-image: url("https://img.freepik.com/free-photo/close-up-man-s-hand-choosing-blue-jacket-hanging-rail-clothing-shop_23-2148175630.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size: cover;
+    /* margin-left: 10px; */
+}
+.ecommerce__box2{
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/workplace-business-modern-male-accessories-laptop-black-background_155003-3944.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size:cover ;
+    margin-left: 10px;
+}
+.ecommerce__box3{
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/3d-rendering-loft-scandinavian-living-room-with-working-table-bookshelf_105762-2162.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size:cover ;
+    margin-left: 20px;
+}
+.ecommerce__box4{
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/wellness-health-lettering-chalkboard_23-2147621495.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size:cover ;
+}
+.ecommerce__box5{
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/composition-different-car-accessories_23-2149030386.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size:cover ;
+    margin-left: 10px;
+}
+.ecommerce__box6{
+    height: 300px;
+    background-image: url("https://img.freepik.com/premium-photo/sports-equipment-green-grass_51195-14.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size:cover ;
+    margin-left: 10px;
+}
+.ecommerce__box7{
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/childhood-activity-concept-with-toy-train-wooden-cubes-wooden-table-side-view_176474-9386.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size:cover ;
+    
+}
+.ecommerce__box8{
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/stylish-beauty-women-elegent-enjoy-concept_53876-132577.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size:cover ;
+    margin-left: 10px;
+}
+.ecommerce__box9{
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/basket-with-back-school-essentials_23-2148587237.jpg?size=626&ext=jpg&ga=GA1.2.2018729287.1683716202&semt=ais");
+    background-size:cover ;
+    margin-left: 20px;
+}
+.ecommerce__box__content{
+    background-color: rgb(220, 164, 120) ;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto Condensed;
+}
