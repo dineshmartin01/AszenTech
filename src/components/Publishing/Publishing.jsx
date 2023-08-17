@@ -91,6 +91,21 @@ function Publishing(){
                     />
                 </div>
            </div>
+           <div className="epublishing__workflow">
+                <h1>Workflow of Our E-Publishing Services</h1>
+                <p>Our E-Publishing workflow involves the following key stages:</p>
+                <div className="epublishing__content">
+                    <h3>Consultation:</h3><p>We understand your publishing goals and requirements, tailoring our services accordingly</p>
+                    <h3>Content Conversion:</h3><p>We expertly convert your content into the desired digital formats, ensuring fidelity and interactivity</p>
+                    <h3>Enhancements:</h3><p>We add interactive elements, multimedia, and enhancements to enrich the user experience</p>
+                    <h3>Quality Assurance:</h3><p>Rigorous testing and quality checks are performed to ensure flawless deliverables</p>
+                    <h3>Distribution & Support:
+                        </h3><p>We assist in distributing your content across platforms and provide ongoing support</p>
+                
+                </div>
+
+
+           </div>
             <Ourclient/>
                 <Footer/>
         </div>

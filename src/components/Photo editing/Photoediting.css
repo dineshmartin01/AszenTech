@@ -1,0 +1,42 @@
+.photo__head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+}
+.photo__head h1{
+    font-size: 50px;
+}
+.photo__creat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.photo__servic{
+    
+    color: #f59e0b;
+}
+.photo__image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo__image h1{
+    font-size: 50px;
+}
+.photo__image p{
+    font-size: 22px;
+}
+.photo__editz{
+    height: 120vh;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+}

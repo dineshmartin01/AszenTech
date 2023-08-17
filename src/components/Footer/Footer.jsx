@@ -18,12 +18,7 @@ function Footer(){
                                 <li>Content writing</li>
                                 
                             </div>
-                            <div className="foot2-2">
-                                <p>Privacy Policy</p>
-                                <p>We take your privacy seriously and will take all measures to protect your personal information. Any personal information received will 
-                                only be used to fill your order. We will not sell or redistribute your information to anyone.</p>
-                            </div>
-                            <div className="foot2-3">
+                                                       <div className="foot2-3">
                                 <li>About us</li>
                                 <li>Case studies</li>
                                 <li>News</li>
@@ -37,8 +32,7 @@ function Footer(){
                         </div>
                         <div className="foot3">
                             <h3>Disclaimer</h3>
-                            <p>aszen does not utilize any 3rd parties or freelancers to outsource any data entry/processing type work. If you are contacted by any 3rd party claiming to represent aszen for these type of services - this is a fraud. Please disregard.
-                             Better still, please forward us the details which we'll forward to our legal cell for appropriate action.</p>
+                            <p>aszen does not utilize any 3rd parties or freelancers to outsource any data entry/processing type work. If you are contacted by any 3rd party claiming to represent aszen for these type of services </p>
                         </div>
                      </div>
                      <div className="foot1-2">
@@ -58,6 +52,8 @@ function Footer(){
                      </div>
                 </div>
             </div>
+           
+
         </div>
     )
 }

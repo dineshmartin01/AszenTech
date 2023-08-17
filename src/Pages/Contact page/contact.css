@@ -2,12 +2,13 @@
 
 .contactus{
     height: 100vh;
-    width: 100%;
+    width: 90%;
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 5%;
+    /* margin: auto; */
     margin-top: 5%;
     background-image: url("https://img.freepik.com/free-photo/online-school-equipment-home_23-2149041150.jpg?w=900&t=st=1689946579~exp=1689947179~hmac=22e5cb444604e728ae2dd06fe2a4cb549ea9b8b8acd0c95df13e034feccc280c");
     background-repeat: no-repeat;
@@ -22,6 +23,7 @@
     justify-content: center;
     align-items: center;
     color: #fff;
+    justify-content: space-between
     
     
 

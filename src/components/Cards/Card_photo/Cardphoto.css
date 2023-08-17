@@ -1,0 +1,18 @@
+.cardphoto{
+    height: 47vh;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5%;
+    line-height: 20px;
+    padding-left: 10px;
+    background: linear-gradient(180.39deg,#e99172 -347.75%,hsla(16,73%,68%,0) 67.72%),hsla(0,0%,93%,.19);
+}
+.cardphoto img{
+    height: 80px;
+    width: 100px;
+}
+.cardphoto h3{
+    font-size: 25px;
+}
