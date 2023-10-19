@@ -29,7 +29,7 @@ function Home(){
                 </div>
 
                 <div>
-                    <Tesimonial/>
+                    {/* <Tesimonial/> */}
                 </div>
                 
 

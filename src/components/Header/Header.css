@@ -1,22 +1,15 @@
 
 .header__top{
     height: 10vh;
-    width: 100%;
-    
+    width: 100%;   
     display: flex;
     justify-content: space-between;
 }
 
 .header__logo img{
-    height: 10vh;
-    
+    height: 10vh;    
 }
-/* .header__right{
-    height: 10vh;
-    width: 15%;
-    display: flex;
-    flex-direction: column;
-} */
+
 .header__all{
     display: flex;
     font-size: 20px;
@@ -27,21 +20,14 @@
 .header__mail{
     display: flex;
 }
-/* .header__login{
-    color: rgb(235, 135, 14) ;
 
-} */
 .header__login img{
     height: 20px;
     margin-top: 10px;    
 }
-/* .header__logincontent{
-            
-        margin-top: -13px;
-} */
+
 .header__mailcontent  {
     color: rgb(235, 135, 14);
-    /* margin-top: 5px; */
     font-size: 15px;  
 }
 .header__right{
@@ -72,70 +58,6 @@
     font-size: 20px;
     color: rgb(235, 135, 14);
 }
-
-
-
-
-.head{
-    height: 60px;
-    width: 100%;
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: space-between;
-}
-.head1{
-    height: 60px;
-    width: 250px;
-    /* background-color: blue; */
-    cursor: pointer;
-    margin-top: 20px;
-}
-.head2 img{
-    height: 60px;
-    width: 150px;
-}
-
-.head3{
-    height: 60px;
-    width: 250px;
-    /* background-color: blue; */
-    display: flex;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    cursor: pointer;
-}
-.head3 b{
-    color: rgb(235, 135, 14);
-    
-}
-.head3 img{
-    height: 25px;
-    /* margin-top: 12px;     */
-
-}
-.log1 span{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-.call{
-    display: flex;
-    margin-left: 20px;
-}
-
-.call1 {
-    height: 20px;
-    width: 35px;
-    cursor: pointer;
-}
-.call2{
-    margin-left: 6px;
-    margin-top: 7px;
-}
 .header1 {
     height: 50px;
     width: 80%;
@@ -154,15 +76,14 @@
 }
 .header {
     height: 50px;
-    width: 99.9%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    /* background-color: aquamarine; */
-    /* margin-top: 20px; */
+   
     list-style-type: none;
     background-color: #e3e3e0 ;
-    border-right: 1px solid black;
-    /* position: absolute; */
+    /* border-right: 1px solid black; */
+    
 }
 
 .header1-1-1-1{
@@ -206,41 +127,13 @@
 
 
 
-@media only screen and (max-width: 480px)  {
-    .head1{
-        display: none;
-        
-    }
-    .head3 .log{
-        display: none;
-    }
-    .head3 .log1{
-        display: none;
-
-    }
-    .head3 span{
-        display:
-         none;
-    }
-    .head3{
-        margin-left: 55%;
-    }
-    .header1{
-        display: none        ;
-    }
-    .humburger{
-        display: contents;
-        
-    }
-    .humburger img {
-        height: 50px;
-    }
-    .head2 img{
-        height: 50px;
-        margin-top: 10px;
-    }
+@media only screen and (max-width: 680px  )  {
     .header1{
         display: none;
+    }
+    .header__logo img{
+        height: 8vh; 
+        
     }
     .header2{
         display: contents;
@@ -272,27 +165,26 @@
       color: rgb(235, 135, 14);
         
     }
-    .nav-links{
-        display: none;
-
-    }
-    .nav-links-mobile{
-                position: absolute;
-                list-style: none;display: block;
-                left: 0;
-                top: 10%;
-                transition: all 0.5s ease-in-out;
-                width: 100%;
-                background-color: #fff;
-    }
-   
-    /* .header2-1-2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-
+    
     .header__right{
         display: none;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .header1-1{
+        font-size: 11px;
+    }
+    .header__right{
+        padding-right: 36px;
+    }
+}
+@media only screen and (max-width: 760px){
+    .header1-1{
+        font-size: 9px;
+        font-weight: bold;
+        /* gap: 10px; */
+    }
+    .header__right{
+        padding-right:  40px;
     }
 }

@@ -1,0 +1,79 @@
+.Ecomprodmanagment{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 1px;
+    color: beige;
+    background-color: rgb(84, 86, 87);
+}
+.Ecomprodmanagment h1{
+    font-size: 40px;
+    margin-left: 13%;
+}
+.Ecomprodmanagment p{
+    font-size: 25px;
+    margin-left: 13%;
+}
+.Ecomprodmanagment__intro{
+    width: 80%;
+    margin: auto;
+}
+.Ecomprodmanagment__intro h3{
+    font-size: 30px;
+    color: darkorange;
+}
+.Ecomprodmanagment__intro p{
+    font-size: 18px;
+    font-family: open sans;
+}
+.Ecomprodmanagment__ourservices{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    place-items: center;
+}
+.Ecomprodmanagment__whychoose li{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: open 'sans';
+}
+.Ecomprodmanagment__whychoose h1{
+    color: coral;
+}
+.Ecomprodmanagment__whychoose{
+    margin-left: 10%;
+}
+.Ecomprodmanagment__whychoose span{
+    font-weight: bold;
+}
+
+.Ecomprodmanagment__whatdifferent{
+    margin-left: 10%;
+}
+.Ecomprodmanagment__whatdifferent li{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: open'sans';
+}
+.Ecomprodmanagment__whatdifferent h1{
+    color: coral;
+}
+.Ecomprodmanagment__whatdifferent span{
+    font-weight: bold;
+}
+.Ecomprodmanagment_outsource{
+    margin-left: 10%;
+}
+.Ecomprodmanagment__outsource li{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: open'sans';
+}
+.Ecomprodmanagment__outsource h1{
+    color: coral;
+}
+.Ecomprodmanagment__outsource span{
+    font-weight: bold;
+}

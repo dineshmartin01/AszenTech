@@ -1,7 +1,7 @@
 .ser{
     height: 110vh;
     width: 100%;
-    /* background-color: #DEDEDE; */
+    background-color: #DEDEDE;
     display: flex;
     justify-content: center;
     
@@ -12,7 +12,7 @@
     /* background-color: #DEDEDE; */
     width: 80%;
     display: flex;
-    flex-direction:column ;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
 }
@@ -187,11 +187,52 @@
       justify-content: flex-start;
     }
     .flip-card{
-      height: 40vh;
-      width: 70%;
+      width: 100%;
+      height: 307px;
     }
-    
   }
 
+  @media only screen and (max-width : 1281px){
+    .flip-card {
+      /* background-color: transparent; */
+      width:30%;
+      height: 281px;
+      margin-bottom: 25px;
+      
+    }
+  }
+  @media only screen and (max-width : 1100px){
+    .flip-card {
+      width:40%;
+      height: 250px;
+      margin-bottom: 25px;     
+  }
 
-
+  }
+  @media only screen and (max-width : 1000px){
+    .flip-card {
+      width:77%;
+      height: 453px;
+      margin-bottom: 25px;
+      font-size: 28px; 
+     }
+  }
+  
+  @media only screen and (max-width : 600px){
+    .flip-card{
+      width: 77%;
+      height: 270px;
+      font-size: 17px;
+    }
+  }
+  @media only screen and (max-width : 500px){
+    .flip-card{
+      width: 100%;
+      height: 304px;
+      font-size: 17px;
+    }
+    .ser{
+      height: auto;
+    }
+  }
+  

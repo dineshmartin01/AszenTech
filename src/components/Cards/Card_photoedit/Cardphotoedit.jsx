@@ -1,19 +1,29 @@
 import React from 'react'
 import './Cardphotoedit.css'
+import { Imgservice } from '../../../content'
 
 
 function Cardphotoedit() {
-  return (
-    <div className='cardphotoedit'>
-        
-        <div className='cardphotoedit__1'>
-            <h1>Image Masking</h1>
-            <p>Clipping path photo editing service is a technique used in photo editing to isolate the subject of an image from the background.Our image masking services are available for a variety of industries, including e-commerce, photography, and graphic design.</p>
-           
-        </div>
-        <img src='http://shineditz.com/static/media/hair-masking.8c75e4d6ef18946250f1.jpg'/>
-    </div>
-  )
+ return( 
+  <>
+    {Imgservice.map(({title,desc,img,bg})=>
+    {
+        return (
+          <div className='cardphotoedit' style={{backgroundImage:bg}}>
+              
+              <div className='cardphotoedit__1'>
+                  <h1>{title}</h1>
+                  <p>{desc}</p>
+                 
+              </div>
+              <img src={img}/>
+          </div> 
+        )
+    })}
+  </>
+ )
+  
 }
+
 
 export default Cardphotoedit

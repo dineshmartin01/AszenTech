@@ -23,7 +23,9 @@ import Ecomwebsite from '../Headercontent/Ecommercecontent/Productdataentry/Ecom
 import Orderprocess from '../Headercontent/Ecommercecontent/Productdataentry/Orderprocess/Orderprocess'
 import Pricemonitoring from '../Headercontent/Ecommercecontent/Productdataentry/Pricemonitoring/Pricemonitoring'
 import EcomBankOff from '../Headercontent/Ecommercecontent/Productdataentry/EcomBankOff/EcomBankOff'
-
+import Ecomprodentry from '../Ecommerce-dataentry/Ecomprodentry/Ecomprodentry'
+import Ecomprodmanagment from '../Ecommerce-dataentry/Ecomprodmanagment/Ecomprodmanagment'
+import Ecomcatologe from '../Ecommerce-dataentry/Ecomcatologe/Ecomcatologe'
 
 
 
@@ -54,8 +56,9 @@ function Routepath() {
             <Route path='/ HireEcommerce' element={< HireEcommerce/>}/>
             <Route path='/Orderprocess' element={<Orderprocess/>}/>
             <Route path='/Pricemonitoring' element={<Pricemonitoring/>}/>
-            
-                      
+            <Route path='/Ecomprodentry' element ={<Ecomprodentry/>}/>
+            <Route path='/Ecomprodmanagment' element={<Ecomprodmanagment/>}/>
+            <Route path='/Ecomcatologe' element ={<Ecomcatologe/>}/>
         </Routes>
     </BrowserRouter>
   )

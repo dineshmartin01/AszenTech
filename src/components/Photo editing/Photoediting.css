@@ -40,3 +40,56 @@
     justify-content: space-evenly;
     margin: auto;
 }
+.photo__cardphotoedit{
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.photo__apart{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.photo__apart1{
+    height: 100vh;
+    width: 50%;
+}
+.photo__aparthead{
+    font-size: 40px;
+    text-align: center;
+}
+.photo__apartinside{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.photo__apartbox1{
+    height: 170px;
+    width: 300px;
+    padding-left: 10px;
+    border-left: 4px solid aquamarine;
+}
+.photo__apartbox2{
+    height: 170px;
+    width: 300px;
+    border-left: 4px solid aquamarine;
+    padding-left: 10px;
+}
+.photo__apartbox3{
+    height: 170px;
+    width: 300px;
+    border-left: 4px solid aquamarine;
+    padding-left: 10px;
+}
+.photo__apartbox4{
+    height: 170px;
+    width: 300px;
+    border-left: 4px solid aquamarine;
+    padding-left: 10px;
+}

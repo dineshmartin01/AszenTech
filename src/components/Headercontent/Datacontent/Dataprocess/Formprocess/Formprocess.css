@@ -1,0 +1,28 @@
+.Formprocess__head{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 1px;
+    color: beige;
+    background-color: rgb(84, 86, 87);
+}
+.Formprocess__head h1{
+    font-size: 40px;
+    margin-left: 13%;
+}
+.Formprocess__head p{
+    font-size: 25px;
+    margin-left: 13%;
+}
+
+.Formprocess__card{
+    height: 160vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    margin: auto; 
+}

@@ -28,8 +28,32 @@ function Photoediting(){
                     <h1>The image editing services you need</h1>
                     <p>Experience Personalized and Creative Photo Retouching by our Skilled Editors, Using Innovative Techniques that Produce Standout Results</p>
                 </div>
-                <div>
+                <div className="photo__cardphotoedit">
                     <Cardphotoedit/>
+                </div>
+                <div className="photo__apart">
+                    <img src="http://shineditz.com/static/media/globe.dbc1d038bb1f6da8ed76.png"/>
+                    <div className="photo__apart1">
+                        <h1 className="photo__aparthead">See what sets Shineditz apart</h1>
+                        <div className="photo__apartinside">
+                            <div className="photo__apartbox1">
+                                <h1>500+</h1>
+                                <h2>Happy Customers</h2>
+                            </div>
+                            <div className="photo__apartbox2">
+                                <h1>99.7%</h1>
+                                <h2>On Time Delivery</h2>
+                            </div>
+                            <div className="photo__apartbox3">
+                                <h1>79,000+</h1>
+                                <h2>Edited Images</h2>
+                            </div>
+                            <div className="photo__apartbox4">
+                                <h1>100+</h1>
+                                <h2>Happy Clients</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
 

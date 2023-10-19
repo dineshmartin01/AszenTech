@@ -1,0 +1,82 @@
+.Ecomprodentry{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 1px;
+    color: beige;
+    background-color: rgb(84, 86, 87);
+}
+.Ecomprodentry h1{
+    font-size: 40px;
+    margin-left: 13%;
+}
+.Ecomprodentry p{
+    font-size: 25px;
+    margin-left: 13%;
+}
+.Ecomprodentry__intro{
+    width: 80%;
+    margin: auto;
+}
+.Ecomprodentry__intro h3{
+    font-size: 30px;
+    color: darkorange;
+}
+.Ecomprodentry__intro p{
+    font-size: 18px;
+    font-family: open sans;
+}
+.Ecomprodentry__ourservice1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
+
+.Ecomprodentry__whychoose li{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: open 'sans';
+}
+.Ecomprodentry__whychoose h1{
+    color: coral;
+}
+.Ecomprodentry__whychoose{
+    margin-left: 10%;
+}
+.Ecomprodentry__whychoose span{
+    font-weight: bold;
+}
+
+.Ecomprodentry__whatdifferent{
+    margin-left: 10%;
+}
+.Ecomprodentry__whatdifferent li{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: open'sans';
+}
+.Ecomprodentry__whatdifferent h1{
+    color: coral;
+}
+.Ecomprodentry__whatdifferent span{
+    font-weight: bold;
+}
+.Ecomprodentry__outsource{
+    margin-left: 10%;
+}
+.Ecomprodentry__outsource li{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: open'sans';
+}
+.Ecomprodentry__outsource h1{
+    color: coral;
+}
+.Ecomprodentry__outsource span{
+    font-weight: bold;
+}
+
+

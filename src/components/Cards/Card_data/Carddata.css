@@ -1,0 +1,23 @@
+.carddata__head{
+    height: 75vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 236, 229);
+    padding: 10px;
+     
+}
+.carddata__head h1{
+    font-size: 25px;
+    color: #111110;
+    font-weight: 100px;
+}
+.carddata__head p{
+    font-size: 15px;
+    line-height: 25px;
+    font-family: open sans;
+}
+
+.carddata__head:hover{
+    background-color: #f59e0b;   
+}

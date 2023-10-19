@@ -1,0 +1,24 @@
+.CardEcomservice{
+    height: 50vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    margin-top: 10px;
+}
+.CardEcomservice img{
+    height: 20vh;
+    width: 80%;
+}
+.CardEcomservice h1{
+    font-size: 23px;
+    
+}
+.CardEcomservice p{
+    font-size: 20px;
+}
+
+.CardEcomservice:hover{
+    background-color: #f59e0b;   
+}

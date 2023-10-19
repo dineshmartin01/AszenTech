@@ -1,0 +1,29 @@
+.cardmarket__head{
+    height: 75vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 236, 229);
+    place-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+     
+}
+.cardmarket__head h1{
+    font-size: 25px;
+    color: #111110;
+    font-weight: 100px;
+}
+.cardmarket__head p{
+    font-size: 15px;
+    line-height: 25px;
+    font-family: open sans;
+}
+.cardmarket__head img{
+    height: 200px;
+    width: 300px;
+}
+
+.cardmarket__head:hover{
+    background-color: #f59e0b;   
+}

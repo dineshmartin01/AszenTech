@@ -1,11 +1,12 @@
 import React from 'react'
 import './Ecommercedropdown.css'
+import { Link } from 'react-router-dom'
 
 function Ecommercedropdown() {
   return (
     <div className='Ecomdrop'>
         <div className='Ecomdrop1'>   
-            <li><h4>Product Data Entry Services</h4></li>
+            <li><h4><Link to={"/Ecomprodentry"}>Product Data Entry Services</Link></h4></li>
             <li>Data entry</li>
             <li>Product data management</li>
             <li>E-commerce website</li>
@@ -16,7 +17,7 @@ function Ecommercedropdown() {
             <li>Hire eCommerce Virtual Assistants </li>
         </div>
         <div className='Ecomdrop2'>   
-        <li><h4>Product Data Management Services</h4></li>
+        <li><h4><Link to={'/Ecomprodmanagment'}>Product Data Management Services</Link></h4></li>
             <li>Product Data Classification Services</li>
             <li>SKU Development Services</li>
             <li>Taxonomy Development Services</li>
@@ -34,11 +35,11 @@ function Ecommercedropdown() {
             <li>UNSPSC Data Classification Services</li>
             <li>Catalog Management Services</li>
             <li>Catalog Management Services</li>  
-        <li><h4> Catalog Building Services</h4></li>
+        <li><h4> <Link to={'/Ecomcataloge'}> Catalog Building Services</Link></h4></li>
             <li> Image Editing Services</li>
             <li>Updating & Maintenance Services</li>
             <li>Content Management Services</li>
-            <li>	Content Revolution, AI Powered</li>
+            <li>Content Revolution, AI Powered</li>
             
         </div>
 
